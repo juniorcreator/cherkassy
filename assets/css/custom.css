@@ -153,3 +153,17 @@
 
 
 }
+
+.moon-background {
+    position: absolute;
+}
+
+.sky-color {
+    height: 140vh;
+}
+header {
+    padding: 15px 0;
+}
+header .name {
+    font-size: 14px;
+}
