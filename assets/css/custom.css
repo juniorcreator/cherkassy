@@ -44,9 +44,12 @@
     font-size: 25px;
 }
 .desc__subtitle {
-    font-size: 29px;
+    font-size: 20px;
     text-align: center;
     text-shadow: 0 0 10px black;
+    line-height: 1.5;
+    margin: 30px 0;
+    padding: 0 15px;
 }
 .section--mobile {
     display: none !important;
@@ -65,8 +68,8 @@
         height: 250px;
     }
     .title--top {
-        bottom: 79px;
-        margin: 0 3%;
+
+        margin: 298px 5% 0 5%;
     }
     .title--top  h1 br{
          display: none;
@@ -76,6 +79,7 @@
     }
     .desc__title {
         font-size: 15px;
+        margin-bottom: 10px;
     }
     .image.image--works p {
         color: #fff;
@@ -95,5 +99,57 @@
     .section--mobile {
         display: table !important;
     }
+
+}
+
+.scrollDown {
+    right: 2.25%;
+}
+.moon {
+    width: 102vw;
+    height: 162vw;
+}
+.title--top {
+    margin: 298px 15px 10px 15px;
+}
+
+.desc__text {
+    font-size: 15px;
+    padding: 0 15px;
+}
+
+.title__text {
+    text-align: center;
+}
+
+.fullpage__slide {
+    display: block;
+    height: 100%;
+    position: static;
+    top: 0;
+    left: 0;
+    max-height: 761px;
+}
+.title {
+    position: static;
+}
+.title ul{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.fullpage__slide {
+    max-height: 100%;
+}
+.border.js-letter {
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+}
+
+@media (min-width: 560px) {
+    body {
+        display: none !important;
+    }
+
 
 }
